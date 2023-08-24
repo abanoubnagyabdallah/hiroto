@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiroto</title>
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header__content">
+                <div class="header__info">
+                    <div class="header__content-item">
+                        <span class="header__icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <span>96 Ernser Vista Suite 437, NY, US</span>
+                    </div>
+                    <div class="header__content-item">
+                        <span class="header__icon"><i class="fa-solid fa-phone"></i></span>
+                        <span>(123) 456-78-910</span>
+                    </div>
+                </div>
+                <div class="header__right">
+                    <div class="header__links">
+                        <a href="" class="header__link">Login</a>
+                        <a href="" class="header__link header__link--border-left">Register</a>
+                    </div>
+                    <div class="header__lang">
+                        <img src="assets/images/lan.png" alt="">
+                        English
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <div class="header__lang__select">
+                            <a href="">English</a>
+                            <a href="">Arabic</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <a class="nav__logo">
+                <img src="assets/images/logo.png" alt="">
+            </a>
+            <div class="nav__right">
+                <ul class="nav__list">
+                    <li class="nav__item nav__item--active">Home</li>
+                    <li class="nav__item">Rooms</li>
+                    <li class="nav__item">About Us</li>
+                    <li class="nav__item">Pages</li>
+                    <li class="nav__item">News</li>
+                    <li class="nav__item">Contact</li>
+                </ul>
+                <button class="nav__btn">Book Now</button>
+            </div>
+            <button class="btn d-lg-none text-light fs-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+                aria-controls="staticBackdrop">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-start bg-dark" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+        aria-labelledby="staticBackdropLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="nav__list d-flex flex-column">
+                <li class="nav__item nav__item--active">Home</li>
+                <li class="nav__item">Rooms</li>
+                <li class="nav__item">About Us</li>
+                <li class="nav__item">Pages</li>
+                <li class="nav__item">News</li>
+                <li class="nav__item">Contact</li>
+            </ul>
+        </div>
+    </div>
+    <!-- offcanvas -->
+    <main>
+        <div class="hero">
+            <div class="container">
+                <h4 class="hero__small-header">WELCOME HIROTO</h4>
+                <h1 class="hero__title">Experience the greatest for you holidays.</h1>
+                <div class="d-flex">
+                    <div class="hero__book d-flex align-items-center gap-4">
+                        <div class="input-group d-flex flex-column">
+                            <p>Location</p>
+                            <div class="hero__input__cont d-flex align-items-center p-2">
+                                <input class="hero__input" type="search" name="" placeholder="Search Location" id="">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                        <div class="input-group d-flex flex-column">
+                            <p>Check In</p>
+                            <div class="border p-2">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                <input type="text" name="" placeholder="Search Location" id="" class="">
+                            </div>
+                        </div>
+                        <div class="input-group d-flex flex-column">
+                            <p>Check Out</p>
+                            <div class="border p-2">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                <input type="text" name="" placeholder="Search Location" id="" class="">
+                            </div>
+                        </div>
+                        <div class="input-group d-flex flex-column">
+                            <p>Person</p>
+                            <div class="border p-2">
+                                <i class="fa-solid fa-user"></i>
+                                <input type="text" name="" placeholder="Search Location" id="" class="">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-dark rounded-0 d-none d-lg-block fs-4">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- start about-us -->
+    <div class="container">
+        <section class="row about-us mb-5">
+            <div class="left-content col-lg-6">
+                <h6 class="text-uppercase text-warning mb-3">about us</h6>
+                <h2 class="h1 fw-bold mb-3">Welcome Hiroto Hotel In Street L'Abreuvoir</h2>
+                <p class="text-black-50 mb-3">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                    fugit,
+                    sed
+                    quia consequuntur magni
+                    dolores eos qui
+                    ratione voluptatem sequi nesciunt.
+                    <br /><br />
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+                </p>
+                <img src="./assets/images/sign.png" alt="signature" />
+            </div>
+            <div class="right-content col-lg-6 mt-5">
+                <img src="./assets/images/home-about.png" alt="hotel image" class="img-fluid">
+            </div>
+        </section>
+        <section class="row mt-5">
+            <div class="col-lg-4 d-flex flex-column gap-2">
+                <div class="mb-4">
+                    <img src="./assets/images/wifi.png" alt="">
+                </div>
+                <h4>Free Wi-Fi</h4>
+                <p>The massive investment in a hotel or resort requires constant reviews and control in order to make it
+                    a successful
+                    investment.</p>
+            </div>
+            <div class="col-lg-4 hover">
+                <div class="mb-4">
+                    <img src="./assets/images/pool.png" alt="">
+                </div>
+                <h4>Premium Pool</h4>
+                <p>Choose from 4 unique ready made concepts, let us help you create the concept perfect for you or let
+                    HCA.</p>
+            </div>
+            <div class="col-lg-4">
+                <div class="mb-4">
+                    <img src="./assets/images/coffe maker.png" alt="">
+                </div>
+                <h4>Coffee Maker</h4>
+                <p>HCA's Owner's Representation is taking care of just these important factors, may it be through
+                    regular site visits and
+                    spot checks.</p>
+            </div>
+        </section>
+        <section class="row mt-5">
+            <div class="col-lg-4">
+                <div class="mb-4">
+                    <img src="./assets/images/wine.png" alt="">
+                </div>
+                <h4>Bar Wine</h4>
+                <p>For properties with third party management companies, HCA Consultants will as well administer the
+                    terms and conditions.</p>
+            </div>
+            <div class="col-lg-4">
+                <div class="mb-4">
+                    <img src="./assets/images/tv.png" alt="">
+                </div>
+                <h4>TV HD</h4>
+                <p>We provide a critical analysis of a hotel's marketing strategy, bench-marking it against industry and
+                    competitive
+                    practices.</p>
+            </div>
+            <div class="col-lg-4">
+                <div class="mb-4">
+                    <img src="./assets/images/restaurant.png" alt="">
+                </div>
+                <h4>Restaurant</h4>
+                <p>A hotel and restaurant investment deserves careful and market oriented financial planning and
+                    projections.</p>
+            </div>
+        </section>
+    </div>
+    <!-- end about-us -->
+    <!-- start our-room -->
+    <section class="our-rooms">
+        <div class="our-room-header text-center">
+            <h5 class="text-warning">OUR ROOM</h5>
+            <h2 class="fw-bold">Explore Our Hotel</h2>
+        </div>
+        <div class="container-fluid mt-5">
+            <div class="row text-light">
+                <div class="room col-lg-3 col-md-6 col-sm-6 p-0">
+                    <div class="room-title">
+                        <div class="room-caption">
+                            <h4>Deluxe Room</h4>
+                            <sup class="fs-5 fw-bold">$</sup><span class="fs-2 fw-bold">55</span><sub
+                                class="fw-bold fs-5">/day</sub>
+                        </div>
+                        <a href="" class="text-decoration-none text-light p-1">Booking Now</a>
+                    </div>
+                </div>
+                <div class="room col-lg-3 col-md-6 col-sm-6 p-0">
+                    <div class="room-title">
+                        <div class="room-caption">
+                            <h4>Deluxe Room</h4>
+                            <sup class="fs-5 fw-bold">$</sup><span class="fs-2 fw-bold">90</span><sub
+                                class="fw-bold fs-5">/day</sub>
+                        </div>
+                        <a href="" class="text-decoration-none text-light p-1">Booking Now</a>
+                    </div>
+                </div>
+                <div class="room col-lg-3 col-md-6 col-sm-6 p-0">
+                    <div class="room-title">
+                        <div class="room-caption">
+                            <h4>Deluxe Room</h4>
+                            <sup class="fs-5 fw-bold">$</sup><span class="fs-2 fw-bold">70</span><sub
+                                class="fw-bold fs-5">/day</sub>
+                        </div>
+                        <a href="" class="text-decoration-none text-light p-1">Booking Now</a>
+                    </div>
+                </div>
+                <div class="room col-lg-3 col-md-6 col-sm-6 p-0">
+                    <div class="room-title">
+                        <div class="room-caption">
+                            <h4>Deluxe Room</h4>
+                            <sup class="fs-5 fw-bold">$</sup><span class="fs-2 fw-bold">85</span><sub
+                                class="fw-bold fs-5">/day</sub>
+                        </div>
+                        <a href="" class="text-decoration-none text-light p-1">Booking Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end our-room -->
+    <!-- start planing -->
+    <section class="planing">
+        <div class="container d-flex justify-content-between align-items-center flex-wrap">
+            <h2 class="h4 fw-bold">Planning your next trip? Save up to 25% on your hotel</h2>
+            <button type="button" class="btn btn-warning text-light rounded-0 ps-4 pe-4 fs-5">Explore More</button>
+        </div>
+    </section>
+    <!-- end planing -->
+    <!-- start TESTIMONIALS -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="testimonials-image col-lg-5 pe-3">
+                    <img src="assets/images/testimonial-left.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="testimonial-content col-lg-7 ps-5">
+                    <div class="testimonial-content-header mb-5">
+                        <h5 class="text-warning">TESTIMONIALS</h5>
+                        <h2 class="fw-bold">What do customers say about us?</h2>
+                    </div>
+                    <!-- carousel -->
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="d-flex justify-content-between">
+                                    <h5>Detailed Review:</h5>
+                                    <div class="text-warning">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="text-secondary">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu
+                                    fugiat nulla pariatur. Excepteur sint occaecat cupidat non proident, sunt in culpa
+                                    qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste
+                                    natus error sit voluptatem accusantium doloremque laudantium.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h5 class="text-warning">Richard Hobson</h5>
+                                    <div class="d-flex gap-5 text-secondary">
+                                        <i class="fa-brands fa-facebook"></i>
+                                        <i class="fa-brands fa-twitter"></i>
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </div>
+                                </div>
+                                <p class="text-secondary">Director Colorlib</p>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-flex justify-content-between">
+                                    <h5>Detailed Review:</h5>
+                                    <div class="text-warning">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="text-secondary">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu
+                                    fugiat nulla pariatur. Excepteur sint occaecat cupidat non proident, sunt in culpa
+                                    qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste
+                                    natus error sit voluptatem accusantium doloremque laudantium.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h5 class="text-warning">Richard Hobson</h5>
+                                    <div class="d-flex gap-5 text-secondary">
+                                        <i class="fa-brands fa-facebook"></i>
+                                        <i class="fa-brands fa-twitter"></i>
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </div>
+                                </div>
+                                <p class="text-secondary">Director Colorlib</p>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-flex justify-content-between">
+                                    <h5>Detailed Review:</h5>
+                                    <div class="text-warning">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="text-secondary">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu
+                                    fugiat nulla pariatur. Excepteur sint occaecat cupidat non proident, sunt in culpa
+                                    qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste
+                                    natus error sit voluptatem accusantium doloremque laudantium.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h5 class="text-warning">Richard Hobson</h5>
+                                    <div class="d-flex gap-5 text-secondary">
+                                        <i class="fa-brands fa-facebook"></i>
+                                        <i class="fa-brands fa-twitter"></i>
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </div>
+                                </div>
+                                <p class="text-secondary">Director Colorlib</p>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev text-dark" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true">
+                                <i class="fa-solid fa-angle-left"></i>
+                            </span>
+                            <span class="visually-hidden text-dark">Previous</span>
+                        </button>
+                        <button class="carousel-control-next color-dark" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <!-- carousel -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end TESTIMONIALS -->
+    <!-- start why choose us -->
+    <section class="why-choose-us d-flex align-items-center">
+        <div class="container text-center">
+            <h5 class="text-warning">WHY CHOOSE US</h5>
+            <h2 class="h1 fw-bold text-light">Contact us now to get the latest deals and for the next booking</h2>
+            <button type="button" class="btn btn-light rounded-0 ps-3 pe-3 mt-3">Booking Now</button>
+        </div>
+    </section>
+    <!-- end why choose us -->
+    <!-- start our gallery -->
+    <section class="our-gallery mt-5 mb-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="our-gallery-left">
+                        <h5 class="text-warning">OUR GALLERY</h5>
+                        <h2 class="fw-bold pt-3">Explore The Most Beautiful In The Hotel</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="our-gallery-right">
+                        <p class="text-secondary">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                            dolore eu fugiat nulla pariatur. Sunt in culpa qui officia deserunt mollit anim.</p>
+                        <button class="btn btn-warning text-light rounded-0 ps-3 pe-3 fs-5 mt-3 mb-3">View Gallery<i
+                                class="fa-solid fa-arrow-right ps-3"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery-images mb-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 p-0 mb-2">
+                    <div></div>
+                </div>
+                <div class="col-lg-3 p-0 mb-2">
+                    <div></div>
+                </div>
+                <div class="col-lg-3 p-0 mb-2">
+                    <div></div>
+                </div>
+                <div class="col-lg-3 p-0 mb-2">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end our gallery -->
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
